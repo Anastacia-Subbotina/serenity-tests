@@ -20,7 +20,7 @@ public class UiTest {
     UiSteps uiSteps;
 
     @Test
-    public void shouldBeAbleDeletePetsFromAStore() {
+    public void check_search() {
         String result = uiSteps.openMainAndGetFirstSearchResult("ЭНЦИКЛОПЕДИЯ");
 
         assertThat(result).as("Не смогли найти в результате поиска ключевое слово")
